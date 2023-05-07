@@ -5,6 +5,7 @@ from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
 import pandas as pd
+import numpy as np
 
 st.title('Stock Forecast App')
 START = "2016-01-01"
